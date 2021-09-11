@@ -1,0 +1,376 @@
+.menu-button, .menu-button:disabled, .menu-button:focus, .menu-button.active {
+    background-color: #8f35d4!important;
+    opacity: 1;
+    box-shadow: none;
+}
+
+.menu-button-selectable {
+    background-color: #8f35d4!important;
+    opacity: 1;
+    box-shadow: none;
+}
+
+.menu-button-selectable.active {
+    background-color: #61278e!important;
+}
+
+.menu-button-clickable, .menu-button-clickable:focus, .menu-button-clickable.active {
+    background-color: #61278e!important;
+}
+
+.level-button.active:active, .level-button.active {
+    background-color: #61278e!important;
+    opacity: 1;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-container > .btn-group-sm {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.exercise_query_text {
+    color: black;
+    text-shadow: grey 2px 1px;
+    font-size:30px;
+}
+
+
+.space {
+    margin-left:5px;
+    margin-right:5px;
+    display: inline-block;
+}
+
+.letterDiv {
+    vertical-align: top;
+    background-color:#c0f3d7;
+    height:20px;
+    width:15px;
+    margin-left:1px;
+    margin-right:1px;
+    margin-bottom:15px;
+    border-bottom: 1px solid black;
+    display:inline-block;
+}
+
+.invisibleInput {
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.typing-block-outer {
+    position: relative;
+}
+
+span.prefilled svg {
+    background-color:yellow;
+    border-radius:50%;
+}
+
+span.hint svg {
+    background-color:yellow;
+    border-radius:50%;
+}
+
+span.prefilled.toggled svg {
+    color:white;
+    background-color:red;
+}
+
+span.hint.toggled svg {
+    color:white;
+    background-color:red;
+}
+
+.incorrect {
+    color: red;
+}
+
+.prefill-letter {
+    color: #c5c5c5;
+}
+
+.imageOptionsTable {
+    width:100%;
+}
+
+@media only screen and (min-width : 320px) {
+    .imageOptionsTable td>img {
+        margin-bottom:20px;
+        width:85px;
+        height:85px;
+    }
+}
+
+@media only screen and (min-width : 320px) and (max-height : 480px) {
+    .imageOptionsTable td>img {
+        margin-bottom:10px;
+        width:60px;
+        height:60px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .imageOptionsTable td>img {
+        margin-bottom:20px;
+        width:85px;
+        height:85px;
+    }
+}
+
+/*
+ * Copyright 2020 André Schepers
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.exercise-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.exercise-menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.exercise-menu button {
+    z-index:0!important;
+}
+
+
+.exercise {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.exercise_query {
+    justify-content: space-around;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.exercise_query img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.exercise_options {
+    margin-left:0px;
+    margin-right:0px;
+    text-align: center;
+}
+
+.exercise_option_button {
+    overflow-wrap: break-word;
+    white-space: normal;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.exercise_query_text {
+    color:white;
+    max-width:70%;
+    min-width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.exercise-column {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.exercise-content-wrapper {
+    margin: 0;
+    min-height:initial;
+    height:initial;
+}
+
+.exercise-content {
+    max-width:100%;
+    margin-top: 20px;
+}
+
+.menu-overlay {
+    z-index:50;
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#333;
+    overflow-y:scroll;
+}
+
+.vocabularyOverviewTable {
+    margin-top:25px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color: white;
+    table-layout:fixed;
+    overflow-wrap: break-word;
+}
+
+.vocabularyOverviewTable tr {
+    height:30px;
+}
+
+.closeOverlayWrapper {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    top: -1px;
+    z-index: 999;
+    font-size: 20px;
+}
+
+.closeOverlay:after {
+    color: #fff;
+    content: "\f00d";
+    font-family: "FontAwesome";
+}
+
+.table-header-cell {
+    text-align:center;
+}
+
+.table-wrapper {
+
+}
+
+.table-cell-icons-wrapper {
+    position:absolute;
+    text-align: center;
+    top:0;
+    width:100%;
+    display:none;
+}
+
+td.table-cell span {
+    padding:5px;
+}
+
+td.cellSelected span {
+    border: 1px solid red;
+}
+
+div.cellSelected {
+    display:block;
+}
+
+.table-cell-details {
+    background-color:green;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    touch-action:none;
+    z-index:51;
+}
+
+.closeTableCellDetails:after {
+    color: #fff;
+    content: "\f00d";
+    font-family: "FontAwesome";
+}
+
+.closeTableCellDetailsWrapper {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    top: -1px;
+    z-index: 51;
+    font-size: 20px;
+}
+
+.vocabularyOptionDetails {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 60;
+    background: grey;
+}
+
+.closeVocabularyOptionDetailsOverlay:after {
+    color: #fff;
+    content: "\f00d";
+    font-family: "FontAwesome";
+}
+
+.closeVocabularyOptionDetailsOverlayWrapper {
+    display: inline;
+    position: absolute;
+    left: 5px;
+    top: -1px;
+    z-index: 61;
+    font-size: 20px;
+}
+
+.vocabulary-context-menu-table {
+    width: 100%;
+    text-align:center;
+}
+
+@media screen and (max-width : 768px) {
+
+    .exercise-content-wrapper {
+        display:flex;
+        flex-direction:column;
+        flex:1;
+    }
+
+    .exercise-content {
+        display:flex;
+        flex-direction:column;
+        flex: 1;
+    }
+}
+
+.exercise-menu .btn-group {
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+@media screen and (max-width: 500px) {
+    .exercise-menu .btn {
+        padding: 1px 5px;
+    }
+}
+
+.active-row {
+    background-color: #1eed1e!important;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "react-vocabulary-trainer",
+  "version": "0.1.0",
+  "description": "A vocabulary trainer that lets you easily learn the words in the vocabulary.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose ./test"
+  },
+  "author": "André Schepers",
+  "license": "MIT",
+  "files": [
+    "utils.js"
+  ],
+  "keywords": [
+    "vocabulary",
+    "language",
+    "trainer",
+    "fast-learning"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "jest": "26.6.0"
+  }
+}
