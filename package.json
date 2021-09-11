@@ -1,6 +1,6 @@
 {
   "name": "react-vocabulary-trainer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A vocabulary trainer that lets you easily learn the words in the vocabulary.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,13 @@
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.15.4",
     "jest": "26.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andres81/react-vocabulary-trainer"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/Andreschepers"
   }
 }
