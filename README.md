@@ -1,4 +1,14 @@
-# React Vocabulary Trainer
+# [React Vocabulary Trainer](https://www.npmjs.com/package/react-vocabulary-trainer)
+
+[![npm][version]][npm-url]
+[![License][license]][npm-url]
+[![Stars][stars]][github-url]
+
+[version]: https://img.shields.io/npm/v/react-vocabulary-trainer.svg
+[license]: https://img.shields.io/github/license/andres81/react-vocabulary-trainer
+[stars]: 	https://img.shields.io/github/stars/andres81/react-vocabulary-trainer?style=social
+[npm-url]: https://www.npmjs.com/package/react-vocabulary-trainer
+[github-url]: https://github.com/andres81/react-vocabulary-trainer
 
 ## Introduction
 
